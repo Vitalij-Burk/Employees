@@ -6,7 +6,8 @@
     "start": "node ./bin/www",
     "server": "nodemon ./bin/www",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "webpack --watch"
   },
   "dependencies": {
     "@prisma/client": "^5.8.1",
